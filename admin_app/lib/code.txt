@@ -1,0 +1,45 @@
+            // SizedBox(width: 20),
+            // dashboardCard("Customers", "\$3,200", Colors.blue),
+            // SizedBox(width: 20),
+            // dashboardCard("Avg Revenue", "\$2,300", Colors.red),
+
+
+
+
+
+            Column(
+                                      children: [
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Container(
+                                            height: 500,
+                                            decoration: BoxDecoration(
+                                              color: Colors.white,
+                                              borderRadius:
+                                                  BorderRadius.circular(20),
+                                            ),
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Container(
+                                            height: 500,
+                                            decoration: BoxDecoration(
+                                              color: Colors.white,
+                                              borderRadius:
+                                                  BorderRadius.circular(20),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+
+
+
+
+                                    columns: <DataColumn>[
+                                DataColumn(label: Text('Sl.no')),
+                                DataColumn(label: Text('Category')),
+                                DataColumn(label: Text('Sub Category')),
+                                DataColumn(label: Text('Actions')),
+                              ],
